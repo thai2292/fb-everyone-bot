@@ -12,8 +12,8 @@ def is_true(a):
     return a.lower() in ("true", "yes", "1")
 
 
-FB_EMAIL = os.getenv('FB_EMAIL')
-FB_PASSWORD = os.getenv('FB_PASSWORD')
+FB_EMAIL = os.getenv('thaitruong09092001@gmail.com')
+FB_PASSWORD = os.getenv('thaithai2202')
 FB_USE_SESSION = is_true(os.getenv('FB_USE_SESSION'))
 FB_SESSION_FILE = os.getenv("FB_SESSION_FILE") or "session.json"
 
